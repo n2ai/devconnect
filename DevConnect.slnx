@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="DevConnect.API/DevConnect.API.csproj" />
+  <Project Path="DevConnect.Contracts/DevConnect.Contracts.csproj" />
+  <Project Path="DevConnect.Core/DevConnect.Core.csproj" />
+  <Project Path="DevConnect.Infrastructure/DevConnect.Infrastructure.csproj" />
+</Solution>

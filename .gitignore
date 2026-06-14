@@ -1,0 +1,12 @@
+# .NET
+**/bin/
+**/obj/
+**/appsettings.Development.json
+**/appsettings.json
+
+# Node
+**/node_modules/
+frontend/.env
+
+# VS Code
+.vscode/
