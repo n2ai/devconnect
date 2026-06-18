@@ -30,7 +30,7 @@ public class FollowController(AppDbContext db) : ControllerBase
             return NotFound("User not found");
         
         //Check 3 if already follow
-        var alreadyFollowing = await db.Follows.AnyAsync(f => f.FollowerId == userId && f.FollowerId == myId);
+        var alreadyFollowing = await db.Follows.AnyAsync(f => f.FollowerId == myId && f.FollowingId == userId);
         if(alreadyFollowing)
             return BadRequest("Already following this user");
         
